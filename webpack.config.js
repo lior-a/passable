@@ -20,7 +20,7 @@ if (env === 'build') {
 }
 
 const config = {
-    entry: `${__dirname}/src/passable.js`,
+    entry: `${__dirname}/src/Passable.js`,
     devtool: 'source-map',
     output: {
         path: `${__dirname}/lib`,
